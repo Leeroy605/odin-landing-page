@@ -12,4 +12,34 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 10px;
+}
+
+
+.top {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between
+}
+
+
+.card-header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
 }
