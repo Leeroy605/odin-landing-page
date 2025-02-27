@@ -1,0 +1,15 @@
+* {
+    border: 1px red solid; /*for debugging*/
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
