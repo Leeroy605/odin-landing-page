@@ -1,6 +1,6 @@
 * {
-    border: 1px red solid; /*for debugging*/
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px red solid; for debugging
+    font-family: Roboto;
 }
 
 .full-container {
@@ -50,39 +50,111 @@ ul {
     display: flex;
     margin-left: 200px;
     margin-right: 200px;
+    margin-top: 75px;
+    margin-bottom: 75px;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    text-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.left-card {
+    max-width: 400px;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 4px;
+    width: 100px;
+    height: 25px;
+    
+    
+}
+
+.top-signup-button {
+    margin-top: 5px;
+    border: 0px;
+}
+
+.top-image {
+    width: 500px;
+    max-height: auto;
+    background-color: grey;
+    text-align: center;
+}
 
 .card-header {
     text-align: center;
     font-size: 32px;
     font-weight: 900;
+    margin-top: 22px;
 }
 
 .card-container {
     display: flex;
     justify-content: center;
+    text-align: center;
     gap: 52px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 22px;
+    margin-bottom: 50px;
+}
+
+.card-info {
+    width: 150px;
+    height: 150px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border-color: #3882F6;
+    border-width: 2px;
+    border-radius: 8px;
+}
+
+text {
+    text-wrap: wrap;
 }
 
 .quote-container {
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
-    margin-right: 200px;
-    background-color: rgb(189, 189, 189);
+    align-items: center;
+    margin-top: 50px;
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
 }
 
 .quote {
     text-align: center;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    width: 700px;
 }
 
 .quote-credit {
     text-align: right;
     font-weight: 900;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 450px;
 }
 
 .signup-card {
