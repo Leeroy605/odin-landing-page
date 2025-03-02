@@ -1,5 +1,5 @@
 * {
-    border: 1px red solid; for debugging
+    /* border: 1px red solid; for debugging */
     font-family: Roboto;
 }
 
@@ -82,9 +82,10 @@ button {
     
 }
 
-.top-signup-button {
+.top-signup-button button{
     margin-top: 5px;
-    border: 0px;
+    border: white;
+    font-weight: 900;
 }
 
 .top-image {
@@ -120,8 +121,7 @@ button {
 .square {
     width: 150px;
     height: 150px;
-    border-color: #3882F6;
-    border-width: 2px;
+    border: 2px solid #3882F6;
     border-radius: 8px;
 }
 
@@ -159,13 +159,30 @@ text {
 
 .signup-card {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-left: 200px;
     margin-right: 200px;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(59, 144, 241);
     margin-top: 25px;
     margin-bottom: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+
+}
+
+.signup-title {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.bottom-signup-button button{
+    border: 1px white solid;
+    font-weight: 900;
 }
 
 .footer {
